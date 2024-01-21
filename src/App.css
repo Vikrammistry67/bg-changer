@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .App {
   text-align: center;
 }
@@ -12,6 +15,12 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+button{
+  padding: 10px 30px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+}
 
 .App-header {
   background-color: #282c34;
@@ -24,6 +33,89 @@
   color: white;
 }
 
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 5%;
+  width: 86%;
+  height: 13%;
+  left: 8%;
+  border-radius: 50px;
+  background-color: #282c34;
+}
+
+.footer .box-1 {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+
+.footer .box-2 {
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+}
+
+.footer .box-3 {
+  background-color: #c3da13;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 120px;
+
+  height: 40px;
+}
+
+.footer .box-4 {
+  background-color: #f10808;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 120px;
+
+  height: 40px;
+}
+
+.footer .box-5 {
+  background-color: #0430f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 120px;
+
+  height: 40px;
+}
+
+.footer .box-6 {
+  background-color: #ff6600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  width: 120px;
+
+  height: 40px;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -32,6 +124,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
